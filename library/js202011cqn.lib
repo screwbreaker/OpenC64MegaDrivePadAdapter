@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# JS202011CQN
+#
+DEF JS202011CQN S 0 0 Y Y 1 F N
+F0 "S" -150 325 50 H V C CNN
+F1 "JS202011CQN" 0 -450 50 H V C CNN
+F2 "" 200 200 50 H I L CNN
+F3 "https://www.ckswitches.com/media/1422/js.pdf" 200 300 60 H I L CNN
+F4 "401-2001-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "JS202011CQN" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Slide Switches" 200 700 60 H I L CNN "Family"
+F8 "https://www.ckswitches.com/media/1422/js.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/JS202011CQN/401-2001-ND/1640097" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH SLIDE DPDT 300MA 6V" 200 1000 60 H I L CNN "Description"
+F11 "C&K" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -100 -200 18 0 1 0 F
+C -100 200 18 0 1 0 F
+C 100 -300 18 0 1 0 F
+C 100 -100 18 0 1 0 F
+C 100 100 18 0 1 0 F
+C 100 300 18 0 1 0 F
+P 2 0 1 0 -80 -200 130 -110 N
+P 2 0 1 0 -80 200 130 290 N
+P 2 0 1 10 0 -150 0 -165 N
+P 2 0 1 10 0 -100 0 -125 N
+P 2 0 1 10 0 -50 0 -75 N
+P 2 0 1 10 0 0 0 -25 N
+P 2 0 1 10 0 50 0 25 N
+P 2 0 1 10 0 100 0 75 N
+P 2 0 1 10 0 150 0 125 N
+P 2 0 1 10 0 200 0 175 N
+P 2 0 1 10 0 235 0 225 N
+X ~ 1 200 300 100 L 50 50 1 1 P
+X ~ 2 -200 200 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+X ~ 5 -200 -200 100 R 50 50 1 1 P
+X ~ 6 200 -300 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
