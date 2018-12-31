@@ -854,12 +854,12 @@
       (net 8 +5V))
     (pad 6 thru_hole oval (at 4.15544 -5.842 270) (size 1.50114 1.99898) (drill 0.89916 (offset 0 0.24892)) (layers *.Cu *.Mask)
       (net 7 /fire))
-    (model ${P3D_WALTER}/conn_d-sub/db_9f.wrl
+    (model /home/francesco/Sviluppo/Elettronica/KiCad/library/Walter-master/packages3d/walter/conn_d-sub/db_9f.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/francesco/Sviluppo/Elettronica/KiCad/library/Walter-master/packages3d/walter/conn_d-sub/db_9f.wrl
+    (model ${KIPRJMOD}/3DModels/db_9f.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -947,7 +947,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/francesco/Sviluppo/Elettronica/KiCad/library/Walter-master/packages3d/walter/conn_d-sub/db_9m.wrl
+    (model ${KIPRJMOD}/3DModels/db_9m.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
