@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name js202011cqn)(type Legacy)(uri ${KIPRJMOD}/library/js202011cqn.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name switch)(type Legacy)(uri ${KIPRJMOD}/library/switch.lib)(options "")(descr ""))
+  (lib (name rescue)(type Legacy)(uri ${KIPRJMOD}/library/rescue.lib)(options "")(descr ""))
+)
