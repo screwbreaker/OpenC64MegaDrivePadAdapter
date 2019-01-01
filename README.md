@@ -5,12 +5,14 @@ OpenC64MegaDrivePadAdapter is an Open Hardware adapter that allows the safe conn
 
 ### Synopsis
 This board is a fork of a project of SukkoPera: [github.com/SukkoPera](https://github.com/SukkoPera/), also this document is based on the original version.
+
 The original version of this board can be found here: [github.com/SukkoPera/OpenC64MegaDrivePadAdapter](https://github.com/SukkoPera/OpenC64MegaDrivePadAdapter)
 
 In this version the PCB has a particular shape in order to manage with the Amiga 600 case.
 A manual cut of the DB9 connector still required in order to allow this adapter to fit into the A600 port 2. If you are not confident with cut tools, don't do it! A simple extension cable is a perfect and easy solution for this problem. 
 
 This version use switches instead jumpers, this make the configuration much easier, plus now is impossible to set an improper configuration.
+
 Is still recommended to turn off the computer before change the configuration.
 The UP direction on the D-PAD is always active, it cannot be disabled. It can be used together with another button configured as UP. An extra diode (D6) is used to separate the two UP lines.
 
@@ -39,6 +41,7 @@ It also allows to use C as the second fire button, which is only supported by a 
 The switches configurations are showed on a little table printed on the board. F1 and F2 on the table refers to FIRE1 and FIRE2 switches.
 
 The FIRE1 switch select which button to use as FIRE 1, B or C.
+
 The FIRE2 switch select wich action the FIRE 2 button must perform, UP (the same of the D-PAD UP) or FIRE 2.
 
 **ALWAYS TURN YOUR COMPUTER OFF BEFORE MOVING THE CONFIGURATION SWITCHES.**
@@ -46,8 +49,8 @@ If you don't follow this rule, **you will probably cause permanent damage to you
 
 ### Pad compatibility
 This adapter is compatible with every MD pad, even the 6 button one. And also with the Master System pad.
-The Mega Drive pad is based to the original SMS 2 button pad, and it is designed to be retro compatible.
-B and C on the MD pad are BUTTON 1 and BUTTON 2 on the SMS pad. On the Mega Drive pad, SEGA added an extra line (SELECT) wich is toggled HIGH or LOW. The state of this line determinate wich set of buttons the pad must return (B and C or A and START).
+The Mega Drive pad is based to the original Master System gamepad, and it is designed to be back compatible.
+B and C on the MD pad are BUTTON 1 and BUTTON 2 on the Master System pad. On the Mega Drive, SEGA added an extra line (SELECT) wich is toggled HIGH or LOW. The state of this line determinate wich set of buttons the pad must return (B and C or A and START).
 Since in this adapter the SELECT line is always HIGH, the pad use only the B and C buttons.
 
 ### License
