@@ -39,6 +39,7 @@ It also allows to use C as the second fire button, which is only supported by a 
 The switches configurations are showed on a little table printed on the board. F1 and F2 on the table refers to FIRE1 and FIRE2 switches.
 
 The FIRE1 switch select which button to use as FIRE 1, B or C.
+
 The FIRE2 switch select wich action the FIRE 2 button must perform, UP (the same of the D-PAD UP) or FIRE 2.
 
 **ALWAYS TURN YOUR COMPUTER OFF BEFORE MOVING THE CONFIGURATION SWITCHES.**
