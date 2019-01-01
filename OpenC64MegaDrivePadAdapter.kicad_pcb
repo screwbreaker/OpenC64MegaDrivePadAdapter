@@ -956,6 +956,7 @@
 
   (module oshw:LOGO (layer B.Cu) (tedit 5C27EA38) (tstamp 5C2B70C3)
     (at 151.8285 100.457 180)
+    (attr virtual)
     (fp_text reference G*** (at 0 3.0226 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -1322,6 +1323,7 @@
 
   (module mdpad:LOGO (layer F.Cu) (tedit 5C28F9D5) (tstamp 5C2C6ECE)
     (at 151.892 96.774)
+    (attr virtual)
     (fp_text reference G*** (at 0 -3.1242) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
