@@ -41,7 +41,7 @@ The switches configurations are showed on a little table printed on the board. F
 
 The FIRE1 switch select which button to use as FIRE 1, B or C.
 
-The FIRE2 switch select wich action the FIRE 2 button must perform, UP (the same of the D-PAD UP) or FIRE.
+The FIRE2 switch select which action the FIRE 2 button must perform, UP (the same of the D-PAD UP) or FIRE.
 
 **ALWAYS TURN YOUR COMPUTER OFF BEFORE MOVING THE CONFIGURATION SWITCHES.**
 If you don't follow this rule, **you will probably cause permanent damage to your computer and/or controller**, so **please be careful**, you have been warned.
