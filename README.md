@@ -46,11 +46,12 @@ The FIRE2 switch select which action the FIRE 2 button must perform, UP (the sam
 **ALWAYS TURN YOUR COMPUTER OFF BEFORE MOVING THE CONFIGURATION SWITCHES.**
 If you don't follow this rule, **you will probably cause permanent damage to your computer and/or controller**, so **please be careful**, you have been warned.
 
-### Pad compatibility
-This adapter is compatible with every MD pad, even the 6 button one. And also with the Master System pad.
-The Mega Drive pad is based on the Master System gamepad, and it is designed to be back compatible.
-B and C on the Mega Drive are BUTTON 1 and BUTTON 2 on the Master System.
-On the Mega Drive, SEGA added an extra line (SELECT) wich is toggled HIGH or LOW. The state of this line determinate wich set of buttons the pad must return (B and C or A and START).
+### Compatibility
+This adapter is compatible with every MD gamepad, even the 6 buttons one. And also with the Master System gamepad.
+
+The Mega Drive gamepad is designed to be back compatible with the Master System. B and C on the Mega Drive are BUTTON 1 and BUTTON 2 on the Master System.
+
+To add more buttons on the Mega Drive, SEGA added an extra line (SELECT) wich is toggled HIGH or LOW. The state of this line determinate wich set of buttons the pad must return (B and C or A and START).
 Since in this adapter the SELECT line is always HIGH, the pad use only the B and C buttons.
 
 ### License
