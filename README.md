@@ -52,7 +52,7 @@ This adapter is compatible with every MD gamepad, even the 6 buttons one. And al
 The Mega Drive gamepad is designed to be back compatible with the Master System. B and C on the Mega Drive are BUTTON 1 and BUTTON 2 on the Master System.
 
 To add more buttons on the Mega Drive, SEGA added an extra line (SELECT) wich is toggled HIGH or LOW. The state of this line determinate wich set of buttons the pad must return (B and C or A and START).
-Since in this adapter the SELECT line is always HIGH, the pad use only the B and C buttons.
+Since in this adapter the SELECT line is always HIGH, only the B and C buttons are used.
 
 ### License
 OpenC64MegaDrivePadAdapter is Open Hardware. If you make any modifications to the board, please contribute them back.
