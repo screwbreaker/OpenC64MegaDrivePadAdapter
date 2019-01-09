@@ -233,4 +233,17 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# void_Void
+#
+DEF void_Void V 0 0 N N 1 F N
+F0 "V" 0 -100 50 H V C CNN
+F1 "void_Void" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+P 2 0 1 0 -50 50 50 -50 N
+ENDDRAW
+ENDDEF
+#
 #End Library
