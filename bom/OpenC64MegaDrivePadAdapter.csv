@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"S2,S3,S1";"SW_CuK_JS202011CQN_DPDT_Straight";3;"JS202011CQN";;;
+2;"D6,D1,D2,D3,D5,D4";"D_DO-35_SOD27_P7.62mm_Horizontal";6;"1N4148";;;
+3;"R3";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"10k";;;
+4;"Q1";"TO-92_Molded_Narrow";1;"BC547";;;
+5;"R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"2.2k";;;
+6;"R4";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"100k";;;
+7;"J10";"DB_9F";1;"DB9_F_TO_C64";;;
+8;"J20";"DB_9M";1;"DB9_M_TO_PAD";;;
