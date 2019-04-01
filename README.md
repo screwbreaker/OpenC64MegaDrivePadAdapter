@@ -15,7 +15,8 @@ This version use switches instead jumpers, this make the configuration much easi
 Is still recommended to turn off the computer before change the configuration.
 The UP direction on the D-PAD is always active, it cannot be disabled. It can be used together with another button configured as UP. An extra diode (D6) is used to separate the two UP lines.
 
-The transistor is biased in a different way to fix an issue with the [OpenAmigaJoyMouseSwitcher](https://github.com/SukkoPera/OpenAmigaJoyMouseSwitcher).
+In the older versions of the adapter, sometimes the second button was not recognized by some games. Now a transistor is used to fix this issue.
+The transistors are biased to be compatible with the [OpenAmigaJoyMouseSwitcher](https://github.com/SukkoPera/OpenAmigaJoyMouseSwitcher).
 
 ### Summary
 Despite being compatible at the physical level (i.e.: they use the same DB-9 connectors), Sega Mega Drive controllers are slightly different from the *Atari-style joysticks* (which the C64 uses) at the electrical level. These differences usually manifest themselves in the fact that certain keyboard keys are not responsive when a Sega Mega Drive pad is connected to a C64 computer, but the CIA chip may also get harmed as a result.
@@ -62,7 +63,7 @@ Since the project is open you are free to get the PCBs made by your preferred ma
 
 [![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com)
 
-You get cheap, professionally-made and good quality PCBs, the autor of the board get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
+You get cheap, professionally-made and good quality PCBs, the autor of the board get some credit that will help with this and [other projects](https://www.pcbway.com/project/shareproject/OpenC64MegaDrivePadAdapter.html). You won't even have to worry about the various PCB options, it's all pre-configured for you!
 
 Also, if you still have to register to that site, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and some more to the author).
 
