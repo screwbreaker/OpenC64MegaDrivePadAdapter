@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Open Sega Mega Drive Joypad to C64 Adapter"
 Date "2017-11-04"
-Rev "2"
+Rev "5"
 Comp "SukkoPera (Thanks Etemenanki)"
 Comment1 "http://wiki.icomp.de/wiki/DB9-Joystick"
 Comment2 "https://www.scribd.com/document/8945979/Commodore-World-Issue-05"
@@ -17,83 +17,81 @@ $EndDescr
 $Comp
 L rescue:D D5
 U 1 1 59C7F089
-P 4850 4450
-F 0 "D5" H 4850 4550 50  0000 C CNN
-F 1 "1N4148" H 4850 4350 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4450 50  0001 C CNN
-F 3 "" H 4850 4450 50  0001 C CNN
-	1    4850 4450
+P 4420 4450
+F 0 "D5" H 4320 4420 50  0000 C CNN
+F 1 "1N4148" H 4420 4350 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4420 4450 50  0001 C CNN
+F 3 "" H 4420 4450 50  0001 C CNN
+	1    4420 4450
 	-1   0    0    1   
 $EndComp
 $Comp
 L rescue:D D3
 U 1 1 59C7F127
-P 4850 4250
-F 0 "D3" H 4850 4350 50  0000 C CNN
-F 1 "1N4148" H 4850 4150 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4250 50  0001 C CNN
-F 3 "" H 4850 4250 50  0001 C CNN
-	1    4850 4250
+P 4420 4250
+F 0 "D3" H 4320 4220 50  0000 C CNN
+F 1 "1N4148" H 4420 4150 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4420 4250 50  0001 C CNN
+F 3 "" H 4420 4250 50  0001 C CNN
+	1    4420 4250
 	-1   0    0    1   
 $EndComp
 $Comp
 L rescue:D D2
 U 1 1 59C7F165
-P 4850 4050
-F 0 "D2" H 4850 4150 50  0000 C CNN
-F 1 "1N4148" H 4850 3950 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4050 50  0001 C CNN
-F 3 "" H 4850 4050 50  0001 C CNN
-	1    4850 4050
+P 4420 4050
+F 0 "D2" H 4320 4020 50  0000 C CNN
+F 1 "1N4148" H 4420 3950 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4420 4050 50  0001 C CNN
+F 3 "" H 4420 4050 50  0001 C CNN
+	1    4420 4050
 	-1   0    0    1   
 $EndComp
 $Comp
 L rescue:D D1
 U 1 1 59C7F194
-P 4850 3850
-F 0 "D1" H 4850 3950 50  0000 C CNN
-F 1 "1N4148" H 4850 3750 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 3850 50  0001 C CNN
-F 3 "" H 4850 3850 50  0001 C CNN
-	1    4850 3850
+P 4420 3850
+F 0 "D1" H 4320 3820 50  0000 C CNN
+F 1 "1N4148" H 4420 3750 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4420 3850 50  0001 C CNN
+F 3 "" H 4420 3850 50  0001 C CNN
+	1    4420 3850
 	-1   0    0    1   
 $EndComp
 $Comp
 L rescue:D D4
 U 1 1 59C7F1D0
-P 5050 4350
-F 0 "D4" H 5050 4450 50  0000 C CNN
-F 1 "1N4148" H 5050 4250 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 4350 50  0001 C CNN
-F 3 "" H 5050 4350 50  0001 C CNN
-	1    5050 4350
+P 4680 4350
+F 0 "D4" H 4580 4320 50  0000 C CNN
+F 1 "1N4148" H 4680 4250 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4680 4350 50  0001 C CNN
+F 3 "" H 4680 4350 50  0001 C CNN
+	1    4680 4350
 	-1   0    0    1   
 $EndComp
-Text Label 4450 4050 0    60   ~ 0
+Text Label 4050 4050 0    60   ~ 0
 left
-Text Label 4450 3850 0    60   ~ 0
+Text Label 4050 3850 0    60   ~ 0
 right
-Text Label 4450 4450 0    60   ~ 0
+Text Label 4050 4450 0    60   ~ 0
 up
-Text Label 4450 4250 0    60   ~ 0
+Text Label 4050 4250 0    60   ~ 0
 down
-Text Label 4450 3750 0    60   ~ 0
-pot_x
-Text Label 4450 4150 0    60   ~ 0
+Text Label 4050 4150 0    60   ~ 0
 +5V
-Text Label 4450 3950 0    60   ~ 0
+Text Label 4050 3950 0    60   ~ 0
 GND
-Text Label 4450 4350 0    60   ~ 0
+Text Label 4050 4350 0    60   ~ 0
 fire
 $Comp
 L rescue:DB9_FEMALE J10
 U 1 1 59C7F5F4
-P 4150 4050
-F 0 "J10" H 4150 4600 50  0000 C CNN
-F 1 "DB9_F_TO_C64" H 4150 3475 50  0000 C CNN
-F 2 "db9:DB_9F" H 4150 4050 50  0001 C CNN
-F 3 "" H 4150 4050 50  0001 C CNN
-	1    4150 4050
+P 3750 4050
+F 0 "J10" H 3750 4600 50  0000 C CNN
+F 1 "DB9_F_TO_C64" H 3750 3475 50  0000 C CNN
+F 2 "db9:DB_9F" H 3750 4050 50  0001 C CNN
+F 3 "" H 3750 4050 50  0001 C CNN
+	1    3750 4050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -107,17 +105,17 @@ F 3 "" H 8000 4050 50  0001 C CNN
 	1    8000 4050
 	1    0    0    -1  
 $EndComp
-Text Notes 4650 4900 0    60   ~ 0
+Text Notes 4250 4900 0    60   ~ 0
 Recommended diodes are 1N4148 but any diode will work fine
 $Comp
 L power:+5V #PWR01
 U 1 1 59C8A01C
-P 5000 1500
-F 0 "#PWR01" H 5000 1350 50  0001 C CNN
-F 1 "+5V" H 5000 1650 50  0000 C CNN
-F 2 "" H 5000 1500 50  0001 C CNN
-F 3 "" H 5000 1500 50  0001 C CNN
-	1    5000 1500
+P 5000 850
+F 0 "#PWR01" H 5000 700 50  0001 C CNN
+F 1 "+5V" H 5000 1000 50  0000 C CNN
+F 2 "" H 5000 850 50  0001 C CNN
+F 3 "" H 5000 850 50  0001 C CNN
+	1    5000 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -161,34 +159,23 @@ $Comp
 L rescue:BC547 Q1
 U 1 1 59D004AA
 P 5100 2400
-F 0 "Q1" H 5000 2250 50  0000 L CNN
-F 1 "BC547" H 4950 2150 50  0000 L CNN
+F 0 "Q1" H 4970 2540 50  0000 L CNN
+F 1 "BC547" H 4930 2180 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5300 2325 50  0001 L CIN
 F 3 "" H 5100 2400 50  0001 L CNN
 	1    5100 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rescue:R R2
+L rescue:R R3
 U 1 1 59D00735
-P 5000 1850
-F 0 "R2" V 5080 1850 50  0000 C CNN
-F 1 "2.2k" V 5000 1850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4930 1850 50  0001 C CNN
-F 3 "" H 5000 1850 50  0001 C CNN
-	1    5000 1850
+P 5000 1240
+F 0 "R3" V 5080 1240 50  0000 C CNN
+F 1 "10k" V 5000 1240 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4930 1240 50  0001 C CNN
+F 3 "" H 5000 1240 50  0001 C CNN
+	1    5000 1240
 	1    0    0    -1  
-$EndComp
-$Comp
-L rescue:R R4
-U 1 1 59D00932
-P 5500 2400
-F 0 "R4" V 5580 2400 50  0000 C CNN
-F 1 "100k" V 5500 2400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5430 2400 50  0001 C CNN
-F 3 "" H 5500 2400 50  0001 C CNN
-	1    5500 2400
-	0    1    1    0   
 $EndComp
 Text Label 7250 4450 0    60   ~ 0
 md_up
@@ -204,48 +191,25 @@ Text Label 7250 4150 0    60   ~ 0
 md_sel
 Text Label 7250 3750 0    60   ~ 0
 md_c/~st
-$Comp
-L rescue:R R3
-U 1 1 59D10D2A
-P 5750 1850
-F 0 "R3" H 5830 1850 50  0000 C CNN
-F 1 "10k" V 5750 1850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5680 1850 50  0001 C CNN
-F 3 "" H 5750 1850 50  0001 C CNN
-	1    5750 1850
-	1    0    0    1   
-$EndComp
 Wire Wire Line
-	4450 3850 4700 3850
+	4050 3850 4270 3850
 Wire Wire Line
-	4450 4050 4700 4050
+	4050 4050 4270 4050
 Wire Wire Line
-	4450 4250 4700 4250
+	4050 4250 4270 4250
 Wire Wire Line
-	4450 4350 4900 4350
-Wire Wire Line
-	4450 4450 4650 4450
-Wire Wire Line
-	5000 4250 7700 4250
-Wire Wire Line
-	5000 4050 7700 4050
+	4050 4350 4530 4350
 Wire Wire Line
 	10250 5370 10250 5520
 Wire Wire Line
 	10750 5370 10750 5520
-Wire Wire Line
-	4700 2100 5000 2100
-Text Label 4450 3650 0    60   ~ 0
+Text Label 4050 3650 0    60   ~ 0
 pot_y
 Wire Wire Line
-	4450 3650 4700 3650
-NoConn ~ 4700 3650
+	4050 3650 4300 3650
+NoConn ~ 4300 3650
 Wire Wire Line
-	4700 2550 4700 2100
-Wire Wire Line
-	5000 2100 5000 2200
-Wire Wire Line
-	5350 2400 5300 2400
+	5340 2400 5300 2400
 $Comp
 L power:GND #PWR0101
 U 1 1 5C264AB3
@@ -257,35 +221,17 @@ F 3 "" H 10750 5520 50  0001 C CNN
 	1    10750 5520
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 2000 5000 2100
-Connection ~ 5000 2100
-Wire Wire Line
-	5000 1650 5000 1700
-Wire Wire Line
-	6000 1200 6000 2400
 $Comp
 L rescue:D D6
 U 1 1 5C287F7C
-P 4850 4650
-F 0 "D6" H 4850 4750 50  0000 C CNN
-F 1 "1N4148" H 4850 4800 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4650 50  0001 C CNN
-F 3 "" H 4850 4650 50  0001 C CNN
-	1    4850 4650
+P 4420 4650
+F 0 "D6" H 4320 4620 50  0000 C CNN
+F 1 "1N4148" H 4420 4800 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4420 4650 50  0001 C CNN
+F 3 "" H 4420 4650 50  0001 C CNN
+	1    4420 4650
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4700 4650 4650 4650
-Wire Wire Line
-	4650 4650 4650 4450
-Connection ~ 4650 4450
-Wire Wire Line
-	4650 4450 4700 4450
-Wire Wire Line
-	5000 4450 5850 4450
-Wire Wire Line
-	4450 4150 7150 4150
 Wire Wire Line
 	7700 3750 7050 3750
 Wire Wire Line
@@ -296,38 +242,13 @@ Wire Wire Line
 	7150 4150 7150 3650
 Wire Wire Line
 	7150 3650 7700 3650
-Connection ~ 7150 4150
 Wire Wire Line
 	7150 4150 7700 4150
 Wire Wire Line
 	6500 3300 6450 3300
 Wire Wire Line
-	4450 3750 4800 3750
-Wire Wire Line
-	4500 2550 4700 2550
-Wire Wire Line
-	4500 2350 4600 2350
-Wire Wire Line
-	4600 2350 4600 1200
-Wire Wire Line
-	4600 1200 6000 1200
-Wire Wire Line
 	6500 3100 6350 3100
-Wire Wire Line
-	5000 1500 5000 1650
-Connection ~ 5000 1650
-Wire Wire Line
-	5750 2000 5750 2400
-Wire Wire Line
-	5200 4350 6450 4350
 Connection ~ 6450 3300
-Wire Wire Line
-	5650 2400 5750 2400
-Connection ~ 5750 2400
-Wire Wire Line
-	5750 1650 5750 1700
-Wire Wire Line
-	5000 1650 5750 1650
 Wire Wire Line
 	7050 2800 6900 2800
 Wire Wire Line
@@ -340,8 +261,8 @@ $Comp
 L js202011cqn:JS202011CQN S1
 U 1 1 5C310585
 P 6700 3000
-F 0 "S1" H 6700 3483 50  0000 C CNN
-F 1 "JS202011CQN" H 6700 3392 50  0000 C CNN
+F 0 "S1" H 6700 3360 50  0000 C CNN
+F 1 "JS202011CQN" H 6700 2640 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 6900 3200 50  0001 L CNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6900 3300 60  0001 L CNN
 F 4 "401-2001-ND" H 6900 3400 60  0001 L CNN "Digi-Key_PN"
@@ -354,10 +275,8 @@ F 10 "SWITCH SLIDE DPDT 300MA 6V" H 6900 4000 60  0001 L CNN "Description"
 F 11 "C&K" H 6900 4100 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 6900 4200 60  0001 L CNN "Status"
 	1    6700 3000
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5000 3850 7700 3850
 Wire Wire Line
 	7050 2800 7050 3750
 Wire Wire Line
@@ -368,8 +287,8 @@ $Comp
 L js202011cqn:JS202011CQN S2
 U 1 1 5C31D4E6
 P 6150 3200
-F 0 "S2" H 6150 3683 50  0000 C CNN
-F 1 "JS202011CQN" H 6150 3592 50  0000 C CNN
+F 0 "S2" H 6150 3560 50  0000 C CNN
+F 1 "JS202011CQN" H 6150 2840 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 6350 3400 50  0001 L CNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6350 3500 60  0001 L CNN
 F 4 "401-2001-ND" H 6350 3600 60  0001 L CNN "Digi-Key_PN"
@@ -382,67 +301,21 @@ F 10 "SWITCH SLIDE DPDT 300MA 6V" H 6350 4200 60  0001 L CNN "Description"
 F 11 "C&K" H 6350 4300 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 6350 4400 60  0001 L CNN "Status"
 	1    6150 3200
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5950 3100 5850 3100
-$Comp
-L js202011cqn:JS202011CQN S3
-U 1 1 5C3255D1
-P 4300 2650
-F 0 "S3" H 4300 3133 50  0000 C CNN
-F 1 "JS202011CQN" H 4300 3042 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 4500 2850 50  0001 L CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 4500 2950 60  0001 L CNN
-F 4 "401-2001-ND" H 4500 3050 60  0001 L CNN "Digi-Key_PN"
-F 5 "JS202011CQN" H 4500 3150 60  0001 L CNN "MPN"
-F 6 "Switches" H 4500 3250 60  0001 L CNN "Category"
-F 7 "Slide Switches" H 4500 3350 60  0001 L CNN "Family"
-F 8 "https://www.ckswitches.com/media/1422/js.pdf" H 4500 3450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/JS202011CQN/401-2001-ND/1640097" H 4500 3550 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH SLIDE DPDT 300MA 6V" H 4500 3650 60  0001 L CNN "Description"
-F 11 "C&K" H 4500 3750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4500 3850 60  0001 L CNN "Status"
-	1    4300 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2450 3900 2450
-Wire Wire Line
-	4800 3100 4800 3750
 Wire Wire Line
 	6350 2900 6350 3000
 Connection ~ 6350 3000
 Wire Wire Line
 	6350 3000 6350 3100
 Wire Wire Line
-	5750 2400 5850 2400
-Wire Wire Line
-	5950 2900 5850 2900
-Connection ~ 5850 2400
-Wire Wire Line
-	5850 2400 6000 2400
-Wire Wire Line
-	4450 3950 5000 3950
-Connection ~ 5000 3950
-Wire Wire Line
-	5000 3950 7700 3950
-Wire Wire Line
-	5850 2900 5850 2400
-Wire Wire Line
 	5850 3100 5850 4450
-Wire Wire Line
-	3900 2450 3900 3100
-Wire Wire Line
-	4800 3100 3900 3100
 Wire Wire Line
 	6950 4650 6950 4450
 Wire Wire Line
-	5000 4650 6950 4650
-Wire Wire Line
 	6950 4450 7700 4450
-Wire Wire Line
-	5000 2600 5000 3950
 $Comp
 L void:Void V1
 U 1 1 5C325267
@@ -480,9 +353,181 @@ Wire Notes Line
 Wire Notes Line
 	9960 5810 9960 5000
 Text Notes 9980 5100 0    60   ~ 0
-POWER_FLAGS
+POWER FLAGS
 Wire Notes Line
 	9960 5810 11160 5810
 Wire Notes Line
 	9960 5000 11160 5000
+$Comp
+L rescue:BC547 Q2
+U 1 1 5C36BBA3
+P 4280 2400
+F 0 "Q2" H 4150 2540 50  0000 L CNN
+F 1 "BC547" H 4100 2170 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4480 2325 50  0001 L CIN
+F 3 "" H 4280 2400 50  0001 L CNN
+	1    4280 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rescue:R R4
+U 1 1 5C36BC6F
+P 4380 1240
+F 0 "R4" V 4460 1240 50  0000 C CNN
+F 1 "10k" V 4380 1240 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4310 1240 50  0001 C CNN
+F 3 "" H 4380 1240 50  0001 C CNN
+	1    4380 1240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 850  5000 990 
+Wire Wire Line
+	4380 990  5000 990 
+Connection ~ 5000 990 
+Wire Wire Line
+	5000 990  5000 1090
+$Comp
+L rescue:R R1
+U 1 1 5C37C36B
+P 5490 2400
+F 0 "R1" V 5570 2400 50  0000 C CNN
+F 1 "10k" V 5490 2400 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5420 2400 50  0001 C CNN
+F 3 "" H 5490 2400 50  0001 C CNN
+	1    5490 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3610 2400 4080 2400
+$Comp
+L js202011cqn:JS202011CQN S3
+U 1 1 5C3255D1
+P 3410 2200
+F 0 "S3" H 3410 2560 50  0000 C CNN
+F 1 "JS202011CQN" H 3410 1840 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 3610 2400 50  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 3610 2500 60  0001 L CNN
+F 4 "401-2001-ND" H 3610 2600 60  0001 L CNN "Digi-Key_PN"
+F 5 "JS202011CQN" H 3610 2700 60  0001 L CNN "MPN"
+F 6 "Switches" H 3610 2800 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 3610 2900 60  0001 L CNN "Family"
+F 8 "https://www.ckswitches.com/media/1422/js.pdf" H 3610 3000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/JS202011CQN/401-2001-ND/1640097" H 3610 3100 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE DPDT 300MA 6V" H 3610 3200 60  0001 L CNN "Description"
+F 11 "C&K" H 3610 3300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3610 3400 60  0001 L CNN "Status"
+	1    3410 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4380 990  4380 1090
+Wire Wire Line
+	3120 2500 3120 3070
+Wire Wire Line
+	3120 3070 4380 3070
+Wire Wire Line
+	4380 1390 4380 1710
+Wire Wire Line
+	4380 1710 3040 1710
+Connection ~ 4380 1710
+Wire Wire Line
+	5000 1390 5000 1580
+Wire Wire Line
+	2950 1580 5000 1580
+Connection ~ 5000 1580
+Wire Wire Line
+	5640 2400 5690 2400
+$Comp
+L rescue:R R2
+U 1 1 5C368807
+P 5690 1250
+F 0 "R2" V 5770 1250 50  0000 C CNN
+F 1 "10k" V 5690 1250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5620 1250 50  0001 C CNN
+F 3 "" H 5690 1250 50  0001 C CNN
+	1    5690 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 990  5690 990 
+Wire Wire Line
+	5690 990  5690 1100
+Wire Wire Line
+	5690 2400 5690 2900
+Wire Wire Line
+	5690 2900 5950 2900
+Wire Wire Line
+	3120 2500 3210 2500
+Wire Wire Line
+	3040 1710 3040 1900
+Wire Wire Line
+	3040 1900 3210 1900
+Wire Wire Line
+	2950 1580 2950 2100
+Wire Wire Line
+	2950 2100 3210 2100
+Wire Wire Line
+	4380 2600 4380 3070
+Connection ~ 4380 3070
+Wire Wire Line
+	4380 1710 4380 2200
+Wire Wire Line
+	5000 1580 5000 2200
+Wire Wire Line
+	2950 2100 2950 2300
+Wire Wire Line
+	2950 2300 3210 2300
+Connection ~ 2950 2100
+Wire Wire Line
+	5690 1400 5690 2400
+Connection ~ 5690 2400
+Text Label 4050 3750 0    60   ~ 0
+pot_x
+Wire Wire Line
+	4050 3750 4460 3750
+Wire Wire Line
+	4460 3750 4460 3200
+Wire Wire Line
+	3880 3200 3880 2000
+Wire Wire Line
+	3880 2000 3610 2000
+Wire Wire Line
+	4050 4450 4220 4450
+Wire Wire Line
+	4220 4650 4220 4450
+Wire Wire Line
+	4220 4650 4270 4650
+Connection ~ 4220 4450
+Wire Wire Line
+	4220 4450 4270 4450
+Wire Wire Line
+	5000 2600 5000 3070
+Wire Wire Line
+	5000 3950 7700 3950
+Wire Wire Line
+	4380 3070 5000 3070
+Connection ~ 5000 3070
+Wire Wire Line
+	5000 3070 5000 3950
+Wire Wire Line
+	4460 3200 3880 3200
+Wire Wire Line
+	4570 3850 7700 3850
+Wire Wire Line
+	4050 3950 5000 3950
+Connection ~ 5000 3950
+Wire Wire Line
+	4570 4050 7700 4050
+Wire Wire Line
+	4570 4250 7700 4250
+Wire Wire Line
+	4830 4350 6450 4350
+Wire Wire Line
+	4570 4450 5850 4450
+Wire Wire Line
+	4570 4650 6950 4650
+Wire Wire Line
+	4050 4150 7150 4150
+Connection ~ 7150 4150
 $EndSCHEMATC
