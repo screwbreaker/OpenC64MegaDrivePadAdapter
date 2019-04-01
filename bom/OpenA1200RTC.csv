@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"U1";"DIP-18_W7.62mm_Socket";1;"MSM6242B";;;
+2;"V2";"A1200";1;"A1200";;;
+3;"V1";"oshw";1;"OSHW";;;
+4;"JP1";"Pin_Header_Straight_1x02_Pitch2.54mm";1;"Jumper";;;
+5;"C1";"C_0805_HandSoldering";1;"100n";;;
+6;"C2";"C_1206_HandSoldering";1;"2.2uF";;;
+7;"R5,R4";"R_0805_HandSoldering";2;"220";;;
+8;"R3,R2,R1";"R_0805_HandSoldering";3;"10k";;;
+9;"BT1";"Battery_Holder_Coin_2032_BS-7";1;"Battery_Holder";;;
+10;"J1";"Pin_Header_Straight_2x20_Pitch2.00mm";1;"Connector_2x20_2mm";;;
+11;"D1";"SOT-23";1;"BAT54C";;;
