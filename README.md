@@ -15,8 +15,8 @@ This version use switches instead jumpers, this make the configuration much easi
 Is still recommended to turn off the computer before change the configuration.
 The UP direction on the D-PAD is always active, it cannot be disabled. It can be used together with another button configured as UP. An extra diode (D6) is used to separate the two UP lines.
 
-In the older versions of the adapter, sometimes the second button was not recognized by some games. Now a transistor is used to fix this issue.
-The transistors are biased to be compatible with the [OpenAmigaJoyMouseSwitcher](https://github.com/SukkoPera/OpenAmigaJoyMouseSwitcher).
+In the older versions of the adapter, sometimes the second button was not recognized by some games, now a transistor is used to fix this issue.
+This version is also compatible with the [OpenAmigaJoyMouseSwitcher](https://github.com/SukkoPera/OpenAmigaJoyMouseSwitcher).
 
 ### Summary
 Despite being compatible at the physical level (i.e.: they use the same DB-9 connectors), Sega Mega Drive controllers are slightly different from the *Atari-style joysticks* (which the C64 uses) at the electrical level. These differences usually manifest themselves in the fact that certain keyboard keys are not responsive when a Sega Mega Drive pad is connected to a C64 computer, but the CIA chip may also get harmed as a result.
