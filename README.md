@@ -61,9 +61,9 @@ OpenC64MegaDrivePadAdapter is Open Hardware. If you make any modifications to th
 ### Support the Project
 Since the project is open you are free to get the PCBs made by your preferred manufacturer, however in case you want to support the development, you can order them from PCBWay:
 
-[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com)
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/OpenC64MegaDrivePadAdapter.html)
 
-You get cheap, professionally-made and good quality PCBs, the autor of the board get some credit that will help with this and [other projects](https://www.pcbway.com/project/shareproject/OpenC64MegaDrivePadAdapter.html). You won't even have to worry about the various PCB options, it's all pre-configured for you!
+You get cheap, professionally-made and good quality PCBs, the autor of the board get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/?bmbno=W123483A). You won't even have to worry about the various PCB options, it's all pre-configured for you!
 
 Also, if you still have to register to that site, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and some more to the author).
 
