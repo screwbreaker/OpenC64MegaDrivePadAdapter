@@ -1,8 +1,9 @@
-(module mdpad:LOGO (layer F.Cu) (tedit 5C28F9D5)
-  (fp_text reference G*** (at 0 -3.1242) (layer F.SilkS) hide
+(module LOGO (layer F.Cu) (tedit 5C72891F)
+  (attr virtual)
+  (fp_text reference V1 (at 0 -3.1242) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
-  (fp_text value LOGO (at 0 3.2004) (layer F.SilkS) hide
+  (fp_text value PAD_LOGO (at 0 3.2004) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (fp_poly (pts (xy 1.187327 -0.268068) (xy 1.195709 -0.229096) (xy 1.195474 -0.227443) (xy 1.169358 -0.177544)
@@ -120,4 +121,10 @@
     (xy -2.711085 -1.202562) (xy -2.528425 -1.31837) (xy -2.308221 -1.437026) (xy -2.226249 -1.477677)
     (xy -1.812043 -1.654354) (xy -1.376887 -1.792061) (xy -0.925144 -1.890406) (xy -0.461174 -1.948999)
     (xy 0.010661 -1.967446) (xy 0.485999 -1.945357)) (layer F.SilkS) (width 0.01))
+  (fp_circle (center 1.92024 -0.2667) (end 2.16154 -0.2413) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 1.92024 -0.2667) (end 2.02946 -0.2667) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 1.91516 -0.27432) (end 1.93294 -0.26924) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 2.60604 -0.56896) (end 2.84988 -0.51308) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 2.6035 -0.56896) (end 2.72034 -0.54864) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 2.59842 -0.56134) (end 2.62382 -0.55626) (layer F.SilkS) (width 0.15))
 )
