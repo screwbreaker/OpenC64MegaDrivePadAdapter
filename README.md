@@ -18,6 +18,8 @@ The UP direction on the D-PAD is always active, it cannot be disabled. It can be
 In the older versions of the adapter, sometimes the second button was not recognized by some games, now a transistor is used to fix this issue.
 This version is also compatible with the [OpenAmigaJoyMouseSwitcher](https://github.com/SukkoPera/OpenAmigaJoyMouseSwitcher).
 
+Rev 6 also include the mod to allow the amiga to use all the MD pad buttons. Unfortunately at the moment there are no known games or program that can do this. Thanks to SukkoPera for this improvement.
+
 ### Summary
 Despite being compatible at the physical level (i.e.: they use the same DB-9 connectors), Sega Mega Drive controllers are slightly different from the *Atari-style joysticks* (which the C64 uses) at the electrical level. These differences usually manifest themselves in the fact that certain keyboard keys are not responsive when a Sega Mega Drive pad is connected to a C64 computer, but the CIA chip may also get harmed as a result.
 
